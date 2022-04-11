@@ -1,0 +1,90 @@
+.navbar{ 
+    background-image: url("./images/headbac.PNG"); 
+    background-size: cover;
+}
+img{
+    border: 1px white;
+}
+.nav-link{
+    color: aliceblue;
+}
+img{
+    width: 250px;
+}
+.navbar-nav{
+    margin-left: 150px;
+}
+body{
+    background-size: cover;
+}
+.content p{
+    text-align: center;
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container
+{
+    
+    margin-top: 0;
+    color: aliceblue;
+    
+     
+    
+    
+}
+.para{
+    border: 2px solid green;
+    width: 23%;
+    float:left;
+    margin-left: 15px;
+    height: 23em;
+    color: black;
+    background-color:rgb(202, 226, 235);
+    justify-content: space-between;
+    
+    
+}
+
+
+.para a{
+    color:green;
+    font-style:initial;
+    font-weight:400;
+    font-size: larger;
+    text-decoration: underline;
+
+}
+.para a:hover{
+    
+    background-color:green;
+    color:white;
+    text-decoration: none;
+}
+h3{
+    font-size: larger;
+    text-align: center;
+}
+.para p{
+    text-align:center;
+    line-height: 1.25em;
+    
+}
+.para a{
+    margin-left: 100px;
+}
+footer{
+    background-color: rgb(46, 37, 37);
+    color:white;
+    height:3em;
+    margin-top:35%;
+    text-align: center;
+    
+    
+}
+    
+}
+
+
+}

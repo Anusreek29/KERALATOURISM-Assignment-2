@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body><div class="container">
+    <div class="navbar">
+        
+        <nav>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="./Index.html">BACK</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <form action="" class="login"style="color:white" onsubmit="return validation()">
+        <h1>User Login</h1>
+        <br>
+        <div class="logcred">
+            <label><h4>Username</h4></label>
+            <br>
+            <input type="text" placeholder="Email" id="email" required>
+            <br>
+            <label for="error" id="error"></label>
+        </div>
+        <br>
+        <br>
+        <div class="logcred" >
+            <label><h4>Password</h4></label>
+            <br>
+            <input type="password" placeholder="Password" id="pswd" required>
+            <br>
+            <label for="error" id="error2"></label>
+        </div>
+        <br>
+        <br>
+        <div >
+             <button type="submit" id="loginbutton">Log In</button>
+        </div>
+        <br>
+        <a href="">forgot password?</a>
+        <div class="logmisc">
+            <h3>Need an Account?</h3>
+            <h3><a href="signup1-1.html">Sign Up</a></h3>
+        </div>
+    </form>
+    <script src="login.js"></script>
+    
+    
+        
+    </body>
+    </html>

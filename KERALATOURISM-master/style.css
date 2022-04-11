@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* to display image in fullsize */
+    background-size: cover;
+}
+header{
+    
+    height: 5em;
+    
+
+}
+img{
+   margin-top: 0.4ex; 
+}
+.headings{
+    float: right;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+    
+   
+    
+}
+.headings a{
+    font-size:small;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+    margin-right: 3px;
+}
+.headings a:hover{
+    color: black;
+    background-color: lightskyblue;
+    /* transition for smoothness */
+    /* transition: 0.5s ease-in-out; */
+  } 
+  .headings #buttons{
+    width: 8%;
+    background-color:dodgerblue;
+    height: 1.8em;
+    border: none;
+    color: white;
+    margin-top: 0%;
+    margin-right: 2px;
+  }
+  #header-background{
+      width: 100%;
+      height: 100px;
+      background-image:url(./HEAD.PNG)
+      
+  }
+  p{
+      text-align: left;
+      color: bisque;
+      size: 5em;
+  }

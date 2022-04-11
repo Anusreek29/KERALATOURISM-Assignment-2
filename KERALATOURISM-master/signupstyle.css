@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+form{
+    align-items: center;
+    
+    width: 20em;
+     height: 28em;
+    padding: 30px;
+    margin-left: 470px;
+    margin-top: 70px;
+    border: 2px solid white;
+}
+.signup input{
+    height: 2em;
+    width: 23em;
+    padding: 2px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.signup #signinbutton{
+    width: 75%;
+    background-color:dodgerblue;
+    height: 2em;
+    border: 1px solid white;
+    color: white;
+    margin-left: 40px;
+    align-items: center;
+}
+input[type=radio]{
+    border:0px;
+    width: 50px;
+    height:1em;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: white;
+}
+.signup .logmisc{
+    color: beige;
+    align-items: center;
+    margin-left: 40px;
+
+}
+h4{
+    color: beige;
+}
+h2{
+    color: bisque;
+    margin-left: 20px;
+    
+    
+    margin-top: 0.5px;
+    font-style: calc();
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

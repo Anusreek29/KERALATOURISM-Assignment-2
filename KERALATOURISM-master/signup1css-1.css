@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(150, 201, 245);
+}
+form{
+    align-items: center;
+    background-color: aliceblue;
+    width: 20em;
+     height: 32em;
+    padding: 10px;
+    margin-left: 470px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+input{
+    height: 1.5em;
+    width: 23em;
+    padding: 2px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+button{
+    width: 90%;
+    background-color:dodgerblue;
+    height: 2em;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    color: white;
+    padding: 1px;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+form .login .indicator
+{
+    /* color: white; */
+    width: 80%;
+    height: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px;
+     display: none;  
+    
+  }
+  form .login .indicator span{
+    width: 80%;
+    height: 100%;
+    background: lightgray;
+    border-radius: 5px;
+    position: relative;
+    
+  }
+  form .login p{
+    font-size: smaller;
+  }
+  form .login .indicator span.medium{
+    margin: 0 3px;
+  }
+   form .login .indicator span::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; 
+  }
+  form .login .indicator span.active.weak::before{
+    background: red;
+    
+  }
+  form .login .indicator span.active.medium::before{
+    background: orange;
+  }
+  form .login .indicator span.active.strong::before{
+    background: green;
+  }
+  
+  form .login .text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -5px;
+    display: none;
+  }
+  
+  form .login .text.weak{
+    color: red;
+  }
+  form .login .text.medium{
+    color: orange;
+  }
+  form .login .text.strong{
+    color: greenyellow;
+  }
+  span{
+    font-size: smaller;
+  }
+    
+  
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Welcome To Registration Form</title>
+  <link rel="stylesheet" href="./signup1css-1.css">
+  <script defer src="signup-1.js"></script>
+  </head>
+
+    <body>
+    
+    <form action="#" class="frmRegistration" > 
+    <h2>Register Your Account</h2>
+    <div class="login">
+    <div>
+    <label ><h4>First name<h4></label>
+    <input type="text" placeholder="First name" id="name1" onkeyup="validateName()" required>
+    <span id="error1"></span>
+    </div>
+    <div>
+    <label ><h4>Email<h4></label>
+    <input type="email" placeholder="Enter Email ID here" id="email1" onkeyup="validateEmail()"required>
+    <span for="error" id="error2"></span>
+    </div>
+    <div>
+    <label ><h4>Phone number<h4></label>
+    <input type="text" placeholder="123 456 7890" maxlength="10" id="phone1" onkeyup="validatePhone()"required>
+    <span for="error" id="error3"></span>
+    </div>
+    <div>
+    <label ><h4>Password<h4></label>
+      <input type="password" id="pass" size="47" maxlength="50"  onkeyup="validatepwd()"  required >
+      <p  style=" font-size: 70%;">(Password must contain one Uppercase,one Lowercase special characters and digits)</p>
+      <small> </small>
+      <br>
+    <!-- <input type="password" placeholder="Enter Password here" id="pass" onkeyup="validatepwd()"required>
+    <p>Password must contain Lowercase,Uppercase,digits and special characters</p>
+    <span id="small"></span>
+    <br> -->
+      <div class="indicator">
+        <span class="weak"></span>
+        <span class="medium"></span>
+        <span class="strong"></span>
+      </div>
+    <div class="text">text</div>
+    </div>
+    
+    <div>
+      <br>
+    <label ><h4>Retype password<h4></label>
+    <input type="password" placeholder="Enter Password here" id="password2">
+    <span for="error" id="error5"></span>
+    </div>
+    <br>
+    <button type="reset">Clear Form</button>
+    <button onclick="validateform()" >submit</button>
+    </div>
+    </form>
+    </body>
+    </html>

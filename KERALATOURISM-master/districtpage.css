@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background: rgb(135, 135, 224);
+}
+body{
+    background-color: rgb(179, 102, 15) ;
+}
+.container
+{
+    
+    display: flex;
+}
+
+.para{
+   
+    width: 33.33%;
+    justify-content: space-around;
+    float:left;
+    object-fit: cover;
+    color: black;  
+    background-color: rgb(179, 102, 15); 
+    background-size: cover;  
+    
+}
+
+
+
+.para img{
+    height:23em;
+    width: 100%;
+   
+}
+
+.para a{
+    color: black;
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+.para a:hover{
+    color: blanchedalmond;
+
+}
+
+header{
+    background-color: black;
+    height: 5em;
+    
+}
+header h3{
+    color: antiquewhite;
+    font-size: 60px;
+}
